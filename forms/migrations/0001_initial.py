@@ -12,14 +12,13 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.CreateModel(
-            name='SampleModel',
+            name='Form',
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('sample_field', models.CharField(default='Hello, world!', max_length=100, verbose_name='Sample field')),
+                ('name', models.CharField(default='', max_length=100, verbose_name='Nome')),
             ],
             options={
-                'verbose_name': 'Sample model',
-                'verbose_name_plural': 'Sample models',
+                'verbose_name': 'Formulário',
             },
         ),
     ]

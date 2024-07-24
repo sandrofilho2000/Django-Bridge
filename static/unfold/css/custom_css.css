@@ -1,0 +1,38 @@
+#options-group,
+.field-min_text,
+.field-max_text {
+  display: none;
+}
+
+#options-group.active,
+.field-min_text.active,
+.field-max_text.active {
+  display: initial;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  background-color: #161d2b;
+  color: #e5e7eb;
+  padding: 3px;
+}
+
+.simplebar-wrapper h3 {
+  display: none;
+}
+
+.simplebar-wrapper li[class] a {
+  display: flex;
+  gap: 8px;
+}
+
+.simplebar-wrapper li[class] svg {
+  font-size: 18px;
+}
+
+.tr.add-row {
+  pointer-events: none;
+}
