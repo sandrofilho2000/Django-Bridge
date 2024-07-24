@@ -68,9 +68,7 @@
     <script src="{% static 'unfold/js/add_icons_to_theme.js' %}"></script>
     <script>
         $( function() {
-            $( "tbody" ).sortable({
-                cancel: ".add-row"
-              });
+            $( "tbody" ).sortable();
         } );
     </script>
     <script src="{% static 'unfold/js/handle_items_sort.js' %}"></script>

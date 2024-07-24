@@ -10,14 +10,27 @@
   display: initial;
 }
 
-button,
-input,
-optgroup,
-select,
-textarea {
+html.dark button,
+html.dark input,
+html.dark optgroup,
+html.dark select,
+html.dark textarea {
   background-color: #161d2b;
   color: #e5e7eb;
-  padding: 3px;
+}
+
+html button,
+html input,
+html optgroup,
+html select,
+html textarea {
+  background-color: #f3f4f6;
+}
+
+select,
+input[type='text'],
+input[type='number'] {
+  padding: 3px 5px;
 }
 
 .simplebar-wrapper h3 {
@@ -33,6 +46,10 @@ textarea {
   font-size: 18px;
 }
 
-.tr.add-row {
+tr.add-row {
   pointer-events: none;
+}
+
+tr.add-row a {
+  pointer-events: initial;
 }
